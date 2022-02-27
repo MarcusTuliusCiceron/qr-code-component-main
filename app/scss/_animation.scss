@@ -1,0 +1,29 @@
+/*Define animation her following the model
+
+-----SCSS-----
+@keyframes fade-in{
+    from{
+        opacity: 0;
+        visibility: hidden;
+    }
+    1%{
+        visibility: visible;
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+-----JS------
+const btn = document.querySelector('#btn')
+const header = document.querySelector('.header')
+const body = document.querySelector('body')
+
+btn.addEventListener('click', function(){
+
+    if (header.classList.contains('open')){
+        header.classList.remove('open')
+        body.classList.remove('noscroll')
+    }*/
+        
