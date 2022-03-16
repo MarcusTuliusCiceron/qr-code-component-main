@@ -91,7 +91,7 @@ h1, h2, h3 {
 .card__qr {
   margin-top: 1rem;
   border-radius: 12px;
-  background-image: url(/images/image-qr-code.png);
+  background-image: url(../../images/image-qr-code.png);
   background-position: center;
   background-size: contain;
   height: 17.9375rem;
